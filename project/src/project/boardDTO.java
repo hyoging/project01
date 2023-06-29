@@ -2,7 +2,7 @@ package project;
 
 public class boardDTO {
 	private String writer,title,contents;
-	private Integer postingDate;
+	private String postingDate;
 	public String getWriter() {
 		return writer;
 	}
@@ -21,10 +21,10 @@ public class boardDTO {
 	public void setContents(String contents) {
 		this.contents = contents;
 	}
-	public Integer getPostingDate() {
+	public String getPostingDate() {
 		return postingDate;
 	}
-	public void setPostingDate(Integer postingDate) {
+	public void setPostingDate(String postingDate) {
 		this.postingDate = postingDate;
 	}
 }
